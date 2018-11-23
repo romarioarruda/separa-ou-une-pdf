@@ -8,3 +8,5 @@ com várias páginas em várias páginas distintas.
 O script atual foi feito para rodar através do bash/terminal
 
 Para separa arquivos, comando: php separa.php nome_arquivo.pdf => onde "nome_arquivo.pdf" é o alvo.
+
+Para unir arquivos, comando: php unir.php novo_arquivo.pdf => onde "novo_arquivo.pdf " será o nome do arquivo criado.
