@@ -1,12 +1,7 @@
-# manipula-pdf
+# PHP: separa ou une arquivos pdf
 
-As imagens precisar estar dentro da pasta desse script.
+Para separar as páginas de um arquivo pdf dentro do diretório:
+> php separa.php alvo.pdf
 
-é possível unir vários arquivos pdf em um só, além de poder dividir um arquivo pdf
-com várias páginas em várias páginas distintas.
-
-O script atual foi feito para rodar através do bash/terminal
-
-Para separa arquivos, comando: php separa.php nome_arquivo.pdf => onde "nome_arquivo.pdf" é o alvo.
-
-Para unir arquivos, comando: php unir.php novo_arquivo.pdf => onde "novo_arquivo.pdf " será o nome do arquivo criado.
+Para unir diversos arquivos pdf em um só, dentro do diretório:
+> php unir.php novo_arquivo.pdf
