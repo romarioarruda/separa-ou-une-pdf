@@ -6,9 +6,7 @@ if(!isset($argv[1])){
 
 $alvo = $argv[1];
 
-$extrai = "pdftk ".$alvo." burst";
-
-`$extrai`;
+exec("pdftk $alvo burst");
 
 echo "Salvando arquivos \n=> \n=> \n=>\n";
 
