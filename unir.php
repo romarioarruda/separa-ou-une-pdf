@@ -8,4 +8,4 @@ $novo = $argv[1];
 
 exec("pdftk *.pdf output $novo");
 
-echo "Salvando => ".$novo."\n";
+echo "Salvando => $novo\n";
