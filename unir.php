@@ -7,8 +7,6 @@ if(!isset($argv[1])){
 $novo = $argv[1];
 
 
-$unir = "pdftk *.pdf output ".$novo;
-
-`$unir`;
+exec("pdftk *.pdf output ".$novo);
 
 echo "Salvando => ".$novo."\n";
